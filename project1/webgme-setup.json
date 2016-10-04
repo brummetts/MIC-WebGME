@@ -1,0 +1,12 @@
+{
+  "components": {
+    "seeds": {
+      "MICProject1": {
+        "src": "src/seeds/MICProject1"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {}
+  }
+}
