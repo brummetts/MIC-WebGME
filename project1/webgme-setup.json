@@ -4,9 +4,24 @@
       "MICProject1": {
         "src": "src/seeds/MICProject1"
       }
+    },
+    "plugins": {
+      "FamilyTransformation": {
+        "src": "src/plugins/FamilyTransformation",
+        "test": "test/plugins/FamilyTransformation"
+      },
+      "TutorialPlugin": {
+        "src": "src/plugins/TutorialPlugin",
+        "test": "test/plugins/TutorialPlugin"
+      },
+      "MiniProject2": {
+        "src": "src/plugins/MiniProject2",
+        "test": "test/plugins/MiniProject2"
+      }
     }
   },
   "dependencies": {
-    "seeds": {}
+    "seeds": {},
+    "plugins": {}
   }
 }
