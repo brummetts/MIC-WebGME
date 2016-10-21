@@ -1,0 +1,114 @@
+[
+    {
+        "name": "ROOT",
+        "isMeta": false,
+        "metaType": ":LibraryRoot:",
+        "children": {
+            "1": {
+                "name": "FCO",
+                "isMeta": true,
+                "metaType": "FCO",
+                "children": {}
+            },
+            "B": {
+                "name": "Example",
+                "isMeta": false,
+                "metaType": "Folder",
+                "children": {
+                    "t": {
+                        "name": "Validity Testing Processing System",
+                        "isMeta": false,
+                        "metaType": "Processing System",
+                        "children": {
+                            "i": {
+                                "name": "Return True",
+                                "isMeta": false,
+                                "metaType": "Output",
+                                "children": {}
+                            },
+                            "c": {
+                                "name": "Process",
+                                "isMeta": false,
+                                "metaType": "Process",
+                                "src": "New ID Number",
+                                "dst": "Return False",
+                                "connection": "New ID Number --> Return False",
+                                "children": {}
+                            },
+                            "J": {
+                                "name": "Process",
+                                "isMeta": false,
+                                "metaType": "Process",
+                                "src": "New ID Number",
+                                "dst": "Return True",
+                                "connection": "New ID Number --> Return True",
+                                "children": {}
+                            },
+                            "R": {
+                                "name": "New ID Number",
+                                "isMeta": false,
+                                "metaType": "Input",
+                                "children": {}
+                            },
+                            "k": {
+                                "name": "Return False",
+                                "isMeta": false,
+                                "metaType": "Output",
+                                "children": {}
+                            }
+                        }
+                    }
+                }
+            },
+            "w": {
+                "name": "Language",
+                "isMeta": true,
+                "metaType": "Language",
+                "children": {
+                    "0": {
+                        "name": "Output",
+                        "isMeta": true,
+                        "metaType": "Output",
+                        "children": {}
+                    },
+                    "4": {
+                        "name": "Process",
+                        "isMeta": true,
+                        "metaType": "Process",
+                        "children": {}
+                    },
+                    "6": {
+                        "name": "Processing System",
+                        "isMeta": true,
+                        "metaType": "Processing System",
+                        "children": {}
+                    },
+                    "I": {
+                        "name": "Single Processing System",
+                        "isMeta": false,
+                        "metaType": "FCO",
+                        "children": {}
+                    },
+                    "F": {
+                        "name": "Input",
+                        "isMeta": true,
+                        "metaType": "Input",
+                        "children": {}
+                    },
+                    "x": {
+                        "name": "Folder",
+                        "isMeta": true,
+                        "metaType": "Folder",
+                        "children": {}
+                    },
+                    "U": {
+                        "name": "Data",
+                        "isMeta": true,
+                        "metaType": "Data",
+                        "children": {}
+                    }
+                }
+            }
+        }
+    }
+]

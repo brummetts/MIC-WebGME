@@ -1,0 +1,50 @@
+[
+    {
+        "name": "FCO",
+        "path": "/1",
+        "numberOfChildren": 0,
+        "base": "null"
+    },
+    {
+        "name": "Language",
+        "path": "/w",
+        "numberOfChildren": 7,
+        "base": "FCO"
+    },
+    {
+        "name": "Output",
+        "path": "/w/0",
+        "numberOfChildren": 0,
+        "base": "Data"
+    },
+    {
+        "name": "Process",
+        "path": "/w/4",
+        "numberOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Processing System",
+        "path": "/w/6",
+        "numberOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Input",
+        "path": "/w/F",
+        "numberOfChildren": 0,
+        "base": "Data"
+    },
+    {
+        "name": "Folder",
+        "path": "/w/x",
+        "numberOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Data",
+        "path": "/w/U",
+        "numberOfChildren": 0,
+        "base": "FCO"
+    }
+]
