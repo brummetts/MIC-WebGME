@@ -10,6 +10,7 @@ var config = require('webgme/config/config.default'),
 // The paths can be loaded from the webgme-setup.json
 config.plugin.basePaths.push('src/plugins');
 config.seedProjects.basePaths.push('src/seeds/MICProject1');
+config.plugin.allowServerExecution = true;
 
 
 

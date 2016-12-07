@@ -17,6 +17,10 @@
       "MiniProject2": {
         "src": "src/plugins/MiniProject2",
         "test": "test/plugins/MiniProject2"
+      },
+      "FI": {
+        "src": "src/plugins/FI",
+        "test": "test/plugins/FI"
       }
     }
   },
